@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020",                          /* Modern JS output */
+    "module": "CommonJS",                        /* Use CommonJS for Node.js */
+    "moduleResolution": "Node",                  /* Resolve modules like Node.js */
+    "esModuleInterop": true,                     /* Allow default imports from CJS modules */
+    "forceConsistentCasingInFileNames": true,    /* Prevent case errors across imports */
+
+    /* Project Structure */
+    "rootDir": "src",                            /* Your TS source folder */
+    "outDir": "dist",                            /* Compiled JS will go here */
+
+    /* Type Safety */
+    "strict": true,                              /* Enable all strict checks */
+    "skipLibCheck": true                         /* Skip type-checking node_modules */
+  },
+  "include": ["src"],                            /* Include all TS files inside src */
+  "exclude": ["node_modules"]                    /* Ignore node_modules */
+}
